@@ -35,8 +35,11 @@ Settings are saved locally in your browser using Chrome’s secure storage. No c
 
 🖼️ Screenshots
 Lock Overlay Example	Popup Settings
-(Add popup screenshot if available)
+![image](https://github.com/user-attachments/assets/eb6155b8-f306-420a-aa2f-321376b19fdc)
 
+![image](https://github.com/user-attachments/assets/96890f89-0f02-4c0b-bd81-a9a8b7016de5)
+
+![image](https://github.com/user-attachments/assets/e95b0c51-3e3d-450c-8750-46b0f8c91946)
 
 
 
