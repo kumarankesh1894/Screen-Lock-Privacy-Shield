@@ -30,19 +30,7 @@ Settings are saved locally in your browser using Chrome’s secure storage. No c
 
 🧭 User Flow Overview
 
-/* 
-
-
-
-
-
-
-
-*/
-
-
-
-
+![image](https://github.com/user-attachments/assets/3c434111-d207-429d-8fdc-0177da7e153e)
 
 
 🖼️ Screenshots
