@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Screen Lock Settings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h2>Set Unlock Password</h2>
+    <input type="password" id="password" placeholder="Enter new password" />
+    <button id="save">Save</button>
+    <div id="status"></div>
+
+    <hr
+      style="
+        width: 100%;
+        margin: 18px 0 10px 0;
+        border: 0;
+        border-top: 1px solid #333;
+      "
+    />
+
+    <div style="width: 100%; margin-bottom: 10px">
+      <label for="blurStrength">Blur Strength:</label>
+      <input type="range" id="blurStrength" min="4" max="30" value="12" />
+      <span id="blurValue">12px</span>
+    </div>
+
+    <div style="width: 100%; margin-bottom: 10px">
+      <label for="modeToggle">Lock Screen Mode:</label>
+      <select id="modeToggle">
+        <option value="dark">Dark</option>
+        <option value="light">Light</option>
+      </select>
+    </div>
+
+    <div style="width: 100%; margin-bottom: 10px">
+      <label for="inactivityTimeout">Auto-Lock on Inactivity:</label>
+      <select id="inactivityTimeout">
+        <option value="0">Off</option>
+        <option value="30">30 seconds</option>
+        <option value="60">1 minute</option>
+        <option value="300">5 minutes</option>
+      </select>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
